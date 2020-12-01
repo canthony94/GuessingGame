@@ -1,11 +1,21 @@
 class GuessingGame
 
-    def intialize(num1, num2)
-        @num1 = num1
-        @num2 = num2
+    def initialize(min, max)
+        @min = min
+        @max = max
+        @secret_num = rand(100)
+        @num_attempts = 0
+        @game_over = false
     end
 
-    p "this should work round 2 "
+    def num_attempts
+        @num_attempts
+    end
+
+    def game_over?
+        @game_over
+    end
+    
 
 end
 
