@@ -5,6 +5,8 @@ class GuessingGame
         @num2 = num2
     end
 
+    p "this should work"
+
 end
 
 
